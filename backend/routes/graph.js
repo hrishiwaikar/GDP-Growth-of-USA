@@ -9,7 +9,7 @@ const _ = require('lodash');
  * Growth graphs on the client
  */
 router.get('/graph', async (req, res) => {
-
+    console.log('Hit server');
     try {
         const url = 'https://api.worldbank.org/countries/USA/indicators/NY.GDP.MKTP.CD?per_page=5000&format=json';
 
